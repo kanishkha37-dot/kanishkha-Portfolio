@@ -209,10 +209,7 @@ function App() {
             </div>
             <div className="portrait-wrap reveal">
               <div className="portrait-glow" />
-              <div className="portrait-placeholder" role="img" aria-label="Profile photo placeholder">
-                <div className="portrait-monogram">KB</div>
-                <span>Profile Photo</span>
-              </div>
+              <img className="portrait-photo" src="/profile.png" alt="Kanishkha B R – Profile Photo" />
               <div className="floating-tag tag-top"><Icon name="code" size={18} /> AI &amp; ML</div>
               <div className="floating-tag tag-bottom"><Icon name="award" size={18} /> Research Mindset</div>
             </div>
